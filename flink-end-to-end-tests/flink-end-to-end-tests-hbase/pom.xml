@@ -22,7 +22,7 @@ under the License.
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<artifactId>flink-end-to-end-tests</artifactId>
-		<groupId>org.apache.flink</groupId>
+		<groupId>com.baugarten.flink</groupId>
 		<version>1.12-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
@@ -32,12 +32,12 @@ under the License.
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-end-to-end-tests-common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-test-utils-junit</artifactId>
 			<scope>compile</scope>
 		</dependency>
@@ -48,19 +48,19 @@ under the License.
 
 		<!--using hbase shade jar to execute end-to-end test-->
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-sql-connector-hbase-1.4_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-sql-connector-hbase-2.2_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-sql-client-test</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -183,7 +183,7 @@ under the License.
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>org.apache.flink</groupId>
+									<groupId>com.baugarten.flink</groupId>
 									<artifactId>flink-sql-client-test</artifactId>
 									<version>${project.version}</version>
 									<destFileName>SqlToolbox.jar</destFileName>
@@ -191,7 +191,7 @@ under the License.
 									<outputDirectory>${project.build.directory}/dependencies</outputDirectory>
 								</artifactItem>
 								<artifactItem>
-									<groupId>org.apache.flink</groupId>
+									<groupId>com.baugarten.flink</groupId>
 									<artifactId>flink-sql-connector-hbase-1.4_${scala.binary.version}</artifactId>
 									<version>${project.version}</version>
 									<destFileName>sql-hbase-1.4.jar</destFileName>
@@ -199,7 +199,7 @@ under the License.
 									<outputDirectory>${project.build.directory}/dependencies</outputDirectory>
 								</artifactItem>
 								<artifactItem>
-									<groupId>org.apache.flink</groupId>
+									<groupId>com.baugarten.flink</groupId>
 									<artifactId>flink-sql-connector-hbase-2.2_${scala.binary.version}</artifactId>
 									<version>${project.version}</version>
 									<destFileName>sql-hbase-2.2.jar</destFileName>

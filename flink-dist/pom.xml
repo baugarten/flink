@@ -18,12 +18,12 @@ specific language governing permissions and limitations
 under the License.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.apache.flink</groupId>
+		<groupId>com.baugarten.flink</groupId>
 		<artifactId>flink-parent</artifactId>
 		<version>1.12-SNAPSHOT</version>
 		<relativePath>..</relativePath>
@@ -42,91 +42,91 @@ under the License.
 		<!-- Flink project binaries -->
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-java</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-scala_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-runtime_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-runtime-web_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-optimizer_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-clients_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-streaming-scala_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-        
+
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-mesos_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-container_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-statebackend-rocksdb_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-kubernetes_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-yarn_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
@@ -139,13 +139,13 @@ under the License.
 
 		<!-- Base Connector Support -->
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-connector-base</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-connector-files</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -154,13 +154,13 @@ under the License.
 		<!--       are optional, so not being added to the dist jar        -->
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-hadoop-fs</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-mapr-fs</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -201,42 +201,42 @@ under the License.
 		-->
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-examples-batch_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-examples-streaming_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-examples-streaming-state-machine_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-examples-streaming-twitter_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-gelly-examples_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-examples-table_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -250,7 +250,7 @@ under the License.
 
 		<!-- start optional Flink external resource drivers -->
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-external-resource-gpu</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -258,56 +258,56 @@ under the License.
 
 		<!-- start optional Flink metrics reporters -->
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-dropwizard</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-graphite</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-influxdb_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-prometheus_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-jmx_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-statsd</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-datadog</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-slf4j</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -317,105 +317,105 @@ under the License.
 		<!-- start optional Flink libraries -->
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-cep_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-cep-scala_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-gelly_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-gelly-scala_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-table-uber_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-table-uber-blink_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-sql-client_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-state-processor-api_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-azure-fs-hadoop</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-s3-fs-hadoop</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-s3-fs-presto</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-swift-fs-hadoop</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-oss-fs-hadoop</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-queryable-state-runtime_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-python_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -428,7 +428,7 @@ under the License.
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-ml-uber_${scala.binary.version}</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -457,7 +457,7 @@ under the License.
 		<!-- test dependencies -->
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-test-utils-junit</artifactId>
 		</dependency>
 		<!-- end test dependencies -->
@@ -475,7 +475,7 @@ under the License.
 			when building for Scala 2.11. -->
 			<dependencies>
 				<dependency>
-					<groupId>org.apache.flink</groupId>
+					<groupId>com.baugarten.flink</groupId>
 					<artifactId>flink-scala-shell_${scala.binary.version}</artifactId>
 					<version>${project.version}</version>
 				</dependency>
@@ -521,7 +521,9 @@ under the License.
 									<executable>ln</executable>
 									<arguments>
 										<argument>-sfn</argument>
-										<argument>${project.basedir}/target/flink-${project.version}-bin/flink-${project.version}</argument>
+										<argument>
+											${project.basedir}/target/flink-${project.version}-bin/flink-${project.version}
+										</argument>
 										<argument>${project.basedir}/../build-target</argument>
 									</arguments>
 								</configuration>
@@ -699,12 +701,15 @@ under the License.
 								</excludes>
 							</artifactSet>
 							<transformers>
-								<transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
 									<resource>reference.conf</resource>
 								</transformer>
 								<!-- The service transformer is needed to merge META-INF/services files -->
-								<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
-								<transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
 									<projectName>Apache Flink</projectName>
 									<encoding>UTF-8</encoding>
 								</transformer>
@@ -759,14 +764,17 @@ under the License.
 							</artifactSet>
 							<transformers>
 								<!-- Include a log4j2 configuration that always prints to stdout -->
-								<transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
 									<resource>log4j2.properties</resource>
 									<file>src/main/resources/log4j-bash-utils.properties</file>
 								</transformer>
-								<transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
 									<resource>reference.conf</resource>
 								</transformer>
-								<transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
+								<transformer
+									implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
 									<projectName>Apache Flink</projectName>
 									<encoding>UTF-8</encoding>
 								</transformer>

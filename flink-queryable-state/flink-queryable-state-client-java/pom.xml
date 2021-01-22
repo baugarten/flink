@@ -24,7 +24,7 @@ under the License.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.apache.flink</groupId>
+		<groupId>com.baugarten.flink</groupId>
 		<artifactId>flink-queryable-state</artifactId>
 		<version>1.12-SNAPSHOT</version>
 		<relativePath>..</relativePath>
@@ -39,7 +39,7 @@ under the License.
 		<!-- core dependencies -->
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-core</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -47,16 +47,16 @@ under the License.
 
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-shaded-netty</artifactId>
+<artifactId>flink-shaded-netty</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-shaded-guava</artifactId>
+<artifactId>flink-shaded-guava</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-core</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -64,7 +64,7 @@ under the License.
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-test-utils-junit</artifactId>
 		</dependency>
 

@@ -21,7 +21,7 @@ under the License.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.apache.flink</groupId>
+		<groupId>com.baugarten.flink</groupId>
 		<artifactId>flink-filesystems</artifactId>
 		<version>1.12-SNAPSHOT</version>
 		<relativePath>..</relativePath>
@@ -39,7 +39,7 @@ under the License.
 
 		<!-- Flink's file system abstraction (only compiled against, not bundled) -->
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-core</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -177,7 +177,7 @@ under the License.
 
 		<!-- The Hadoop file system adapter classes (bundled) -->
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-hadoop-fs</artifactId>
 			<version>${project.version}</version>
 		</dependency>

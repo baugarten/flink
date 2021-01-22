@@ -23,7 +23,7 @@ under the License.
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.apache.flink</groupId>
+		<groupId>com.baugarten.flink</groupId>
 		<artifactId>flink-parent</artifactId>
 		<version>1.12-SNAPSHOT</version>
 		<relativePath>..</relativePath>
@@ -36,20 +36,20 @@ under the License.
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-annotations</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-metrics-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-shaded-asm-7</artifactId>
+<artifactId>flink-shaded-asm-7</artifactId>
 		</dependency>
 
 		<!-- standard utilities -->
@@ -83,13 +83,13 @@ under the License.
 		<!-- Ratelimiting dependencies -->
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-shaded-guava</artifactId>
+<artifactId>flink-shaded-guava</artifactId>
 		</dependency>
 
 		<!-- ================== test dependencies ================== -->
 
 		<dependency>
-			<groupId>org.apache.flink</groupId>
+			<groupId>com.baugarten.flink</groupId>
 			<artifactId>flink-test-utils-junit</artifactId>
 		</dependency>
 
@@ -110,7 +110,7 @@ under the License.
 
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-shaded-jackson</artifactId>
+<artifactId>flink-shaded-jackson</artifactId>
 			<scope>test</scope>
 		</dependency>
 

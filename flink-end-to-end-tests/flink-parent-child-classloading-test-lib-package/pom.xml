@@ -28,7 +28,7 @@
 
 	<parent>
 		<artifactId>flink-end-to-end-tests</artifactId>
-		<groupId>org.apache.flink</groupId>
+		<groupId>com.baugarten.flink</groupId>
 		<version>1.12-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>

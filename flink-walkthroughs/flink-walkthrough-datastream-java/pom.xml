@@ -25,7 +25,7 @@ under the License.
 	</properties>
 
 	<parent>
-		<groupId>org.apache.flink</groupId>
+		<groupId>com.baugarten.flink</groupId>
 		<artifactId>flink-walkthroughs</artifactId>
 		<version>1.12-SNAPSHOT</version>
 		<relativePath>..</relativePath>

@@ -36,7 +36,7 @@ under the License.
 	and thus be suffixed along with all other modules.
 	-->
 
-	<groupId>org.apache.flink</groupId>
+	<groupId>com.baugarten.flink</groupId>
 	<artifactId>force-shading</artifactId>
 	<version>1.12-SNAPSHOT</version>
 	<name>Flink : Tools : Force Shading</name>
